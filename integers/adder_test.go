@@ -14,7 +14,7 @@ func TestAdder(t *testing.T) {
 	}
 }
 
-func AddExample() {
+func ExampleAdd() {
 	res := Add(1, 1)
 	fmt.Print(res)
 	// Output: 2
